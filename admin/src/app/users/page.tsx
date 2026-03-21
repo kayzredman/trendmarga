@@ -5,7 +5,7 @@ const getData = async (): Promise<User[]> => {
   return [
     {
       id: "728ed521",
-      avatar: "/users/1.png",
+      avatar: "/qodeioUno.png",
       status: "active",
       fullName: "John Doe",
       email: "johndoe@gmail.com",
@@ -263,7 +263,7 @@ const UsersPage = async () => {
   return (
     <div className="">
       <div className="mb-8 px-4 py-2 bg-secondary rounded-md">
-        <h1 className="font-semibold">All Users</h1>
+        <h1 className="font-semibold">TrendMarga</h1>
       </div>
       <DataTable columns={columns} data={data} />
     </div>

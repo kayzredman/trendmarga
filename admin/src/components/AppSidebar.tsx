@@ -78,7 +78,7 @@ const AppSidebar = () => {
             <SidebarMenuButton asChild>
               <Link href="/">
                 <Image src="/qodeioUno.png" alt="logo" width={32} height={32} />
-                <span>Lama Dev</span>
+                <span>TrendMarga Admin</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -155,7 +155,7 @@ const AppSidebar = () => {
           </SidebarGroupContent>
         </SidebarGroup>
         <SidebarGroup>
-          <SidebarGroupLabel>Users</SidebarGroupLabel>
+          <SidebarGroupLabel>TrendMarga Users</SidebarGroupLabel>
           <SidebarGroupAction>
             <Plus /> <span className="sr-only">Add User</span>
           </SidebarGroupAction>
@@ -165,7 +165,7 @@ const AppSidebar = () => {
                 <SidebarMenuButton asChild>
                   <Link href="/users">
                     <User />
-                    See All Users
+                    See All TrendMarga Users
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
