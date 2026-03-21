@@ -77,7 +77,7 @@ const AppSidebar = () => {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <Link href="/">
-                <Image src="/logo.svg" alt="logo" width={20} height={20} />
+                <Image src="/qodeioUno.png" alt="logo" width={32} height={32} />
                 <span>Lama Dev</span>
               </Link>
             </SidebarMenuButton>

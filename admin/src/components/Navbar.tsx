@@ -2,6 +2,7 @@
 
 import { LogOut, Moon, Settings, Sun, User } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import {
   DropdownMenu,
@@ -22,6 +23,9 @@ const Navbar = () => {
     <nav className="p-4 flex items-center justify-between sticky top-0 bg-background z-10">
       {/* LEFT */}
       <SidebarTrigger />
+      <Link href="/">
+        <Image src="/qodeioUno.png" alt="logo" width={32} height={32} />
+      </Link>
       {/* <Button variant="outline" onClick={toggleSidebar}>
         Custom Button
       </Button> */}
@@ -53,7 +57,7 @@ const Navbar = () => {
         <DropdownMenu>
           <DropdownMenuTrigger>
             <Avatar>
-              <AvatarImage src="https://avatars.githubusercontent.com/u/1486366" />
+              <AvatarImage src="/qodeioUno.png" width={32} height={32} />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
           </DropdownMenuTrigger>
